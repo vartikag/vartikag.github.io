@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Vartika, Portfolio, Student's Portfolio">
+<meta name="description" content="Portfolio || Vartika Gupta">
+<meta name="author" content="Vartika Gupta"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+ <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    
+      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      <!-- CSS -->
+      <style>
+         .toggler { width: 500px; height: 200px; }
+            #button { padding: .5em 1em; text-decoration: none; top:16%; }
+            #effect { width: 650px; height: 600px; padding: 0.4em; position: relative; top:0%; left:130px; }
+            #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+      </style>
+      <script>
+         $(function() {
+            // run the currently selected effect
+            function runEffect() {
+               // run the effect
+               $( "#effect" ).show( "blind", {times: 100,distance: 100}, 5000, callback);
+            };
+            //callback function to bring a hidden box back
+            function callback() {
+               setTimeout(function() {
+                  $( "#effect:visible" ).removeAttr( "style" ).stop();
+               }, 1000 );
+            };
+            // set effect from select menu value
+            $( "#button" ).click(function() {
+               runEffect();
+               return false;
+            });
+            $( "#effect" ).hide();
+         });
+      </script>
+
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+}
+div {
+    height: 100%;
+    background-color: ;
+    float: left;
+}
+#left {
+    width:10%; 
+	margin: 0px;
+}
+#center {
+    margin: 0px 0;
+    width: calc(100% - 10%);
+}
+
+div#smallrec {
+    width: 70px;
+    height: 70px;
+    border: 0px solid black;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+
+
+}
+
+</style>
+</head>
+<body class="w3-teal"> <nav class="w3-sidenav w3-teal w3-card-2" style="height:290px" style="display:none">
+  <a href="javascript:void(0)" onClick="w3_close()" 
+  class="w3-closenav w3-large"></a>
+   <a href="index.html"><i>Home</i></a>			
+ <a href="Experiences.html"><i>Experience</i></a>		
+  <a href="skill.html"><i>Skills</i></a>		
+  <a href="ExtraCurriculur.html"><i>Extra Curricular</i></a>		
+  <a href="thoughtstrial.html"><i>Thoughts</i></a>
+  
+  <a href="contactme.html"><i>Contact</i></a>
+ 
+</nav>
+<div id="left" class="w3-teal">
+<div id="smallrec" class="w3-indigo">
+<p></p>
+</div>
+<div id="smallrec" class="w3-aqua">
+<p></p>
+</div>
+<div id="smallrec" class="w3-lime">
+<p></p>
+</div>
+<div id="smallrec" class="w3-pink">
+<p></p>
+</div>
+<div id="smallrec" class="w3-amber">
+<p></p>
+</div>
+<div id="smallrec" class="w3-purple">
+<p></p>
+</div>
+<div id="smallrec" class="w3-blue">
+<p></p>
+</div>
+<div id="smallrec" class="w3-deep-orange">
+<p></p>
+</div>
+<div id="smallrec" class="w3-cyan">
+<p></p>
+</div>
+<div id="smallrec" class="w3-red">
+<p></p>
+</div>
+</div>
+<div id="center" class="w3-orange">
+<h2></h2>
+
+<p></p>
+
+<div class="toggler">
+         <div id="effect" class="ui-widget-content ui-corner-all">
+            
+            <h4 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif"><strong>ABOUT ME:</strong></h4><h6>An optimistic girl, with a zeal to learn more & is not afraid of taking risk.</h6><br>
+            <h4 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif"><strong>ABOUT LIFE:</strong></h4><h6>Life is one, work hard as much as you can, so that when you give, you can give hard as much as you can.</h6><br>
+            <h4 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif"><strong>ABOUT CHANCES:</strong></h4><h6>Chances should be given to everyone because you can't catch anybody's real talent without given them a chance.</h6><br>
+            <h4 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif"><strong>ABOUT THOUGHTS:</strong></h4><h6>Everyone has their own thoughts & everyone has the right to express them freely.</h6><br>
+            <h4 align="center" style="font-family:Georgia, 'Times New Roman', Times, serif"><strong>ABOUT PORTFOLIO:</strong></h4><h6>This portfolio is'nt design for a professional look rather it is designed for a "LOOKING FOR OPPORTUNITY" girl.</h6>
+         </div>
+      </div>
+      <a href="#" id="button" class="ui-state-default ui-corner-all">Click to view my THOUGHTS</a>
+     
+
+</div>
+
+<h6 align="right" style="padding-right:10px">All Rights Reserved @Vartika</h6><h6 align="right" style="padding-right:10px">Contact me at: <strong><i>vartikagupta2407@gmail.com</i></strong></h6>
+</body>
+</html>
